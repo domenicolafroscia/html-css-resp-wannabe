@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col {
+        width: 100%;
+    }
+
+    .why-us img {
+        padding-bottom: 50px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
